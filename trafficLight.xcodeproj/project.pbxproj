@@ -15,7 +15,7 @@
 		30A88A182ABF376600CC6E20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A88A162ABF376600CC6E20 /* LaunchScreen.storyboard */; };
 		30A88A232ABF376700CC6E20 /* trafficLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A88A222ABF376700CC6E20 /* trafficLightTests.swift */; };
 		30A88A2D2ABF376700CC6E20 /* trafficLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A88A2C2ABF376700CC6E20 /* trafficLightUITests.swift */; };
-		30A88A2F2ABF376700CC6E20 /* trafficLightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A88A2E2ABF376700CC6E20 /* trafficLightUITestsLaunchTests.swift */; };
+		30A88A3B2ABF377500CC6E20 /* trafficLightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A88A2E2ABF376700CC6E20 /* trafficLightUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +113,7 @@
 		30A88A212ABF376700CC6E20 /* trafficLightTests */ = {
 			isa = PBXGroup;
 			children = (
+				30A88A2E2ABF376700CC6E20 /* trafficLightUITestsLaunchTests.swift */,
 				30A88A222ABF376700CC6E20 /* trafficLightTests.swift */,
 			);
 			path = trafficLightTests;
@@ -122,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				30A88A2C2ABF376700CC6E20 /* trafficLightUITests.swift */,
-				30A88A2E2ABF376700CC6E20 /* trafficLightUITestsLaunchTests.swift */,
 			);
 			path = trafficLightUITests;
 			sourceTree = "<group>";
@@ -269,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30A88A232ABF376700CC6E20 /* trafficLightTests.swift in Sources */,
+				30A88A3B2ABF377500CC6E20 /* trafficLightUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +278,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				30A88A2D2ABF376700CC6E20 /* trafficLightUITests.swift in Sources */,
-				30A88A2F2ABF376700CC6E20 /* trafficLightUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,9 +456,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Kondrashov.trafficLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -483,9 +486,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Kondrashov.trafficLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
